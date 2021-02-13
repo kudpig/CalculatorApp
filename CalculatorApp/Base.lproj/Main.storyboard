@@ -41,22 +41,22 @@
                                 </cells>
                             </collectionView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12345" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8rL-CD-aef">
-                                <rect key="frame" x="0.0" y="402" width="414" height="60"/>
+                                <rect key="frame" x="0.0" y="402" width="401" height="60"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="60" id="K0A-N7-OiS"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" weight="light" pointSize="75"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yYi-SC-2Ic" secondAttribute="trailing" id="5WG-r5-TIl"/>
                             <constraint firstItem="8rL-CD-aef" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="FLa-gQ-gbT"/>
                             <constraint firstItem="yYi-SC-2Ic" firstAttribute="top" secondItem="8rL-CD-aef" secondAttribute="bottom" id="VpW-Ha-LJm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8rL-CD-aef" secondAttribute="trailing" id="g3S-Zj-dJJ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8rL-CD-aef" secondAttribute="trailing" constant="13" id="g3S-Zj-dJJ"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="yYi-SC-2Ic" secondAttribute="bottom" id="s5g-dm-QPq"/>
                             <constraint firstItem="yYi-SC-2Ic" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wha-1P-L1O"/>
                         </constraints>
@@ -73,8 +73,8 @@
         </scene>
     </scenes>
     <resources>
-        <systemColor name="systemBackgroundColor">
-            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
             <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
